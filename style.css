@@ -6,7 +6,6 @@ body{
 }
 
 /* HEADER */
-
 header{
     background:#1f2937;
     color:white;
@@ -24,8 +23,24 @@ header{
     margin-bottom:15px;
 }
 
-/* NAV */
+/* NEW: Resume Button Styling */
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
 
+.resume-btn:hover {
+    background-color: #2563eb;
+}
+
+/* NAV */
 nav{
     background:#374151;
     padding:12px;
@@ -40,7 +55,6 @@ nav a{
 }
 
 /* SECTIONS */
-
 section{
     padding:40px;
     max-width:900px;
@@ -48,7 +62,6 @@ section{
 }
 
 /* CARDS */
-
 .card{
     background:white;
     padding:25px;
@@ -64,7 +77,6 @@ section{
 }
 
 /* SKILLS */
-
 .skills{
     list-style:none;
     padding:0;
@@ -79,7 +91,6 @@ section{
 }
 
 /* FOOTER */
-
 footer{
     background:#1f2937;
     color:white;
